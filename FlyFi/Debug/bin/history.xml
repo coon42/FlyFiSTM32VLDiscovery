@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.2 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=FlyFi.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\FlyFi -TC:\CooCox\CoIDE\configuration\ProgramData\FlyFi/arm-gcc-link.ld -g">
+      <target file="FlyFi.elf" lastModified="13eb9d93d4d">
+         <source file="..\obj\semihosting.o" lastModified="13eb9d930da"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="13eb9d9330c"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="13eb9d9335a"/>
+         <source file="..\obj\core_cm3.o" lastModified="13eb9d933c8"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="13eb9d93474"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="13eb9d9355e"/>
+         <source file="..\obj\main.o" lastModified="13eb9d93629"/>
+         <source file="..\obj\printf.o" lastModified="13eb9d93752"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="13eb9d9386b"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="13eb9d939e2"/>
+         <source file="..\obj\sh_cmd.o" lastModified="13eb9d93a02"/>
+         <source file="..\obj\syscalls.o" lastModified="13eb9d93a7f"/>
+         <source file="..\obj\misc.o" lastModified="13eb9d93b1b"/>
+      </target>
+   </processor>
+</history>
