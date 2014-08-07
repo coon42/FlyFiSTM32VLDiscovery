@@ -338,7 +338,7 @@ int main(void)
 		  {
 		    firstRun = 0;
 		    resetAll();
-		    Delay(10000);
+		    Delay(50000);
 		  }
 
 		  if (USART_GetFlagStatus(USART1, USART_FLAG_RXNE) != RESET)
@@ -375,8 +375,8 @@ int main(void)
 				  //Flush any remaining messages. (macht das hider überhaupt sinn, da interrupt!?)
 				  // Flush Receive-Buffer (entfernen evtl. vorhandener ungültiger Werte)
 
-				  while(USART_GetITStatus(USART1, USART_IT_RXNE) == RESET) // Wait for Char
-					  USART_ReceiveData(USART1);
+				  //while(USART_GetITStatus(USART1, USART_IT_RXNE) == RESET) // Wait for Char
+				//	  USART_ReceiveData(USART1);
 			  }
 			  else
 			  {
